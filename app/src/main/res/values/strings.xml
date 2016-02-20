@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Health Buzz</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Nav Drawer List Items-->
+    <string name="food_menu">Food Menu</string>
+    <string name="my_order">My Order</string>
+    <string name="favorites">Favorites</string>
+    <string name="payment">Payment</string>
+    <string name="refer_us">Refer Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+
+
+    <string name="cancel">Cancel</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

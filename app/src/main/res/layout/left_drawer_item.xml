@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.healthbuzz.foodapp.ui.app.view.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="horizontal"
+    android:padding="@dimen/side_nav_list_item_margin">
+
+    <ImageView
+        android:id="@+id/side_navigation_drawer_icon_image"
+        android:layout_width="@dimen/side_nav_list_item_icon_dimen"
+        android:layout_height="@dimen/side_nav_list_item_icon_dimen"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/side_nav_list_item_margin"
+        android:duplicateParentState="true" />
+
+    <TextView
+        android:id="@+id/side_navigation_list_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:duplicateParentState="true"
+        android:textColor="@color/colorLightGray"
+        android:textSize="@dimen/common_header_title_size"
+        tools:text="Store Locator"
+        tools:textColor="@color/colorMidnightBlue" />
+
+</com.healthbuzz.foodapp.ui.app.view.CheckableLinearLayout>

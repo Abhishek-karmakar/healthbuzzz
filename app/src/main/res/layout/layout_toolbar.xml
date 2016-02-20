@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/abc_action_bar_default_height_material"
+    android:background="@color/colorSkyBlue"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@style/ToolBarTheme"
+    app:popupTheme="@style/AppTheme"
+    tools:ignore="PrivateResource">
+
+    <TextView
+        android:id="@+id/toolbar_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Menu"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="@dimen/common_text_size"
+        android:visibility="gone"
+        tools:text="cancel" />
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="@dimen/margin_16dp"
+        android:paddingRight="@dimen/margin_16dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/common_header_title_size"
+        tools:text="page title" />
+</android.support.v7.widget.Toolbar>

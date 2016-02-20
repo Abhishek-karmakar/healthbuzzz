@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DAF8FF</color>
+    <color name="colorPrimaryDark">#2F436B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorOrangeBase">#FF1100</color>
+    <color name="colorStatusBar">@color/colorPrimaryDark</color>
+    <color name="colorFooter">#1b2e46</color>
+    <color name="colorPaleBlue">#DAF8FF</color>
+    <color name="colorSkyBlue">#AFE0EB</color>
+    <color name="colorLightGray">#F3F3F3</color>
+    <color name="colorSoftRed">#ED6481</color>
+    <color name="colorNavyBlue">#2F436B</color>
+    <color name="colorMidnightBlue">#213654</color>
+    <color name="colorLavender">#BBB2C4</color>
+    <color name="colorBlueShaded">#415176</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_text_grey">#4b4b4b</color>
+    <color name="colorLightSkyBlue">#dff3f7</color>
+    <!--view profile -->
+    <color name="color_view_profile_next_immunization_bg">#415176</color>
+    <color name="colorLightPurple">#BAB1C4</color>
+
+    <color name="color_gray_image_button_pressed">#40000000</color>
+</resources>
